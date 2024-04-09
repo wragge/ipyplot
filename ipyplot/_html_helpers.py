@@ -213,7 +213,6 @@ def _create_html_viewer(
     </style>
     <div>
         <input type="checkbox" id="ipyplot-html-viewer-toggle-%(1)s">
-        <label id="ipyplot-html-viewer-label-%(1)s" for="ipyplot-html-viewer-toggle-%(1)s">show html</label>
         <textarea id="ipyplot-html-viewer-textarea-%(1)s" readonly>
             %(0)s
         </textarea>
@@ -315,7 +314,6 @@ def _create_img(
     html = """
     <div class="ipyplot-placeholder-div-%(0)s">
         <div id="ipyplot-content-div-%(0)s-%(1)s" class="ipyplot-content-div-%(0)s">
-            <h4 style="font-size: 12px; word-wrap: break-word;">%(2)s</h4>
             %(3)s
             <a href="#!">
                 <span class="ipyplot-img-close"/>
